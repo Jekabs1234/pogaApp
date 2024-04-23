@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.poga{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: darkred;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.poga:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.poga:active{
+    background-color: green;
+    opacity: 0.8;
+    transition: 0.3s;
+}
